@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOSHIMASA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  min-height: 100vh;
+  padding: 90px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  flex-grow: 1;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  letter-spacing: 6px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.line {
+  width: 95%;
+  height: 2px;
+  background: #a855f7;
+  margin: 0 auto 8px auto;
+  box-shadow: 0 0 8px #a855f7;
+}
+
+.location {
+  font-size: 0.85em;
+  opacity: 0.7;
+  margin-bottom: 35px;
+  letter-spacing: 2px;
+}
+
+/* SNSボタン */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #a855f7;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background: #a855f7;
+  box-shadow: 0 0 12px #a855f7;
+}
+
+/* リリース */
+.release-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6em;
+  font-weight: 500;
+  line-height: 1.35;
+  margin-top: 20px;
+}
+
+.release-sub {
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin: 12px 0 25px 0;
+  letter-spacing: 2px;
+}
+
+/* Music */
+.music-section {
+  margin-top: 10px;
+}
+
+.music-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 0.95em;
+}
+
+/* MVセクション */
+.mv-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mv-now {
+  font-family: 'Playfair Display', serif; /* ← タイトルと同じ */
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  color: white; /* ← 白 */
+  letter-spacing: 2px;
+}
+
+.footer {
+  font-size: 0.75em;
+  opacity: 0.5;
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
+</style>
+</head>
+
+<body>
+<div class="overlay">
+
+  <div class="top">
+    <h1>TOSHIMASA</h1>
+    <div class="line"></div>
+    <div class="location">Artist</div>
+
+    <!-- SNSボタン -->
+    <div class="button-group">
+      <a href="https://www.instagram.com/toshi_masa8" class="btn">Instagram</a>
+      <a href="https://www.tiktok.com/@tttottts" class="btn">TikTok</a>
+      <a href="https://youtube.com/@ajpu-l9m?si=_yajhs8AGTFYKPtV" class="btn">YouTube</a>
+    </div>
+
+    <!-- リリース -->
+    <div class="release-title">
+      1.st single <br>
+      「Last Message Note」
+    </div>
+
+    <div class="release-sub">
+      配信中
+    </div>
+
+    <div class="music-section">
+      <a href="https://linkco.re/zdb8GrHG" class="btn music-btn">
+        Music
+      </a>
+    </div>
+
+    <!-- MV -->
+    <div class="mv-section">
+      <div class="mv-now"> Last Message Note MV</div>
+    <div class="release-sub">
+            公開中
+          </div>
+
+      <a href="https://youtu.be/8cPj29CgQ4w?si=rRM9jKX4_kasqbTO" class="btn music-btn">
+        MV
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © TOSHIMASA
+  </div>
+
+</div>
+</body>
+</html>
